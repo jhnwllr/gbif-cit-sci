@@ -1,6 +1,6 @@
 
-This repository keeps this graphic up to date and builds a table of time series table of total citizen science contributions to GBIF. 
-
+Updates graphic found here. May add more graphics in the future. 
+https://data-blog.gbif.org/post/citizen-science-on-gbif-2019/
 
 ![](https://raw.githubusercontent.com/jhnwllr/gbif-cit-sci/main/plots/plot.svg)
 

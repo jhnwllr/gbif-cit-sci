@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pak::pkg_install(c("readr","purrr","dplyr","ggplot2","ggthemes","jsonlite","httr"))
+          pak::pkg_install(c("readr","purrr","dplyr","ggplot2","ggthemes","jsonlite","httr","xml2"))
         shell: Rscript {0}
 
       - name: build table script
