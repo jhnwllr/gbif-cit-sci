@@ -35,6 +35,8 @@ glimpse()
 d = rbind(d_cs,d_gbif) %>% 
 glimpse()
 
+d %>% readr::write_tsv("exports/table.tsv")
+
 library(ggplot2)
 
 breaks = seq(0,3000e6,100e6)
