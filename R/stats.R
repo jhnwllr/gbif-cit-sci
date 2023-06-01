@@ -56,5 +56,5 @@ theme(plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm"))
 
 ggsave("plots/plot.pdf", plot = p,width=10,height=7)
 ggsave("plots/plot.svg", plot = p,width=10,height=7)
-ggsave("plots/plot.png", plot = p,width=10,height=7)
+ggsave("plots/plot.png", plot = p,width=10,height=7,dpi=600)
 
