@@ -54,7 +54,8 @@ guides(colour=guide_legend(title="")) +
 theme(legend.position = c(.925,.1)) + 
 theme(legend.background = element_rect(fill="white")) + 
 scale_x_date(date_breaks = "1 year",date_labels = "%Y") + 
-theme(plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm")) 
+theme(plot.margin = margin(0.5, 0.5, 0.5, 0.5, "cm")) + 
+theme(text=element_text(family="mono"))
 
 ggsave("plots/plot.pdf", plot = p,width=10,height=7)
 ggsave("plots/plot.svg", plot = p,width=10,height=7)
