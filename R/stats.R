@@ -3,7 +3,7 @@ library(dplyr)
 library(purrr)
 library(ggthemes)
 
-# setwd("C:/Users/ftw712/Desktop/gbif-cit-sci/")
+setwd("C:/Users/ftw712/Desktop/gbif-cit-sci/")
 
 cs_keys = jsonlite::fromJSON("http://api.gbif.org/v1/dataset?machineTagNamespace=citizenScience.mgrosjean.gbif.org&limit=1000") %>% 
 pluck("results") %>%
